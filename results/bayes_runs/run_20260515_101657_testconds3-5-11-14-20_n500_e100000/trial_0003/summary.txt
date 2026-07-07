@@ -1,0 +1,48 @@
+Trial:          3
+Mean RMSE:      108.3778 µM
+RMSE DA:        30.6493 µM
+RMSE AA:        139.3049 µM
+RMSE UA:        155.1793 µM
+Selected tests: dpv, ca, cagc
+N features:     15
+Train conds:    [1, 2, 4, 6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 18, 19, 21, 22, 23, 24]
+Test conds:     [3, 5, 11, 14, 20]
+Epoch floor:    100000
+Actual epochs:  625200 (extended)
+Patience:       100 val-checks
+
+Features:
+  dpv_AA_Ip
+  dpv_AA_Ep
+  dpv_AA_Area
+  dpv_DA_Ep
+  dpv_UA_Ip
+  dpv_ratio_Ip_DA_AA
+  dpv_ratio_Ip_DA_UA
+  dpv_dEp_DA_AA
+  dpv_dEp_UA_DA
+  ca_Iss_I0
+  ca_Q_early
+  cagc_CE_1s
+  cagc_CE_10s
+  cagc_CE_ss
+  cagc_AF
+
+Predictions vs targets (test set):
+Sample  DA_true     DA_pred     AA_true     AA_pred     UA_true     UA_pred     
+--------------------------------------------------------------------------------
+1       5.0         -26.9       200.0       338.5       400.0       236.2       
+2       5.0         -20.6       200.0       208.0       400.0       165.5       
+3       5.0         -22.8       200.0       212.0       400.0       164.9       
+4       10.0        27.5        0.0         176.7       200.0       219.2       
+5       10.0        31.5        0.0         80.8        200.0       151.4       
+6       10.0        22.5        0.0         171.4       200.0       186.2       
+7       20.0        63.0        200.0       171.4       0.0         -6.9        
+8       20.0        23.3        200.0       219.9       0.0         -25.2       
+9       20.0        20.1        200.0       225.4       0.0         -23.1       
+10      50.0        16.6        100.0       228.5       400.0       204.4       
+11      50.0        41.1        100.0       381.6       400.0       53.5        
+12      50.0        69.6        100.0       264.7       400.0       232.4       
+13      100.0       86.4        400.0       279.3       100.0       212.3       
+14      100.0       51.3        400.0       213.1       100.0       182.6       
+15      100.0       31.3        400.0       226.0       100.0       219.0       

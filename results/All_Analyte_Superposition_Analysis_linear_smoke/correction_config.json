@@ -1,0 +1,11 @@
+{
+  "linear_correction": true,
+  "gaussian_correction": false,
+  "linear_edge_fraction": 0.08,
+  "linear_left_range": null,
+  "linear_right_range": null,
+  "gaussian_fit_start_v": 0.65,
+  "gaussian_center_v": 0.9,
+  "gaussian_sigma_v": 0.18,
+  "allow_negative_gaussian": false
+}

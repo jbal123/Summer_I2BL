@@ -1,0 +1,149 @@
+Trial:          176
+Mean RMSE:      26.2796 µM
+RMSE DA:        10.3847 µM
+RMSE AA:        41.6189 µM
+RMSE UA:        26.8352 µM
+Selected tests: dpv, cv
+N features:     107
+Train elecs:    ['i1', 'i5']
+Test elecs:     ['i3']
+Epoch floor:    100000
+Actual epochs:  3436400 (extended)
+Patience:       100 val-checks
+
+Features:
+  dpv_AA_Ip
+  dpv_AA_Area
+  dpv_DA_Area
+  dpv_UA_Ep
+  dpv_UA_Area
+  dpv_ratio_Ip_DA_AA
+  dpv_dEp_UA_DA
+  cv_fwd_00
+  cv_rev_00
+  cv_fwd_01
+  cv_rev_01
+  cv_fwd_02
+  cv_rev_02
+  cv_fwd_03
+  cv_rev_03
+  cv_fwd_04
+  cv_rev_04
+  cv_fwd_05
+  cv_rev_05
+  cv_fwd_06
+  cv_rev_06
+  cv_fwd_07
+  cv_rev_07
+  cv_fwd_08
+  cv_rev_08
+  cv_fwd_09
+  cv_rev_09
+  cv_fwd_10
+  cv_rev_10
+  cv_fwd_11
+  cv_rev_11
+  cv_fwd_12
+  cv_rev_12
+  cv_fwd_13
+  cv_rev_13
+  cv_fwd_14
+  cv_rev_14
+  cv_fwd_15
+  cv_rev_15
+  cv_fwd_16
+  cv_rev_16
+  cv_fwd_17
+  cv_rev_17
+  cv_fwd_18
+  cv_rev_18
+  cv_fwd_19
+  cv_rev_19
+  cv_fwd_20
+  cv_rev_20
+  cv_fwd_21
+  cv_rev_21
+  cv_fwd_22
+  cv_rev_22
+  cv_fwd_23
+  cv_rev_23
+  cv_fwd_24
+  cv_rev_24
+  cv_fwd_25
+  cv_rev_25
+  cv_fwd_26
+  cv_rev_26
+  cv_fwd_27
+  cv_rev_27
+  cv_fwd_28
+  cv_rev_28
+  cv_fwd_29
+  cv_rev_29
+  cv_fwd_30
+  cv_rev_30
+  cv_fwd_31
+  cv_rev_31
+  cv_fwd_32
+  cv_rev_32
+  cv_fwd_33
+  cv_rev_33
+  cv_fwd_34
+  cv_rev_34
+  cv_fwd_35
+  cv_rev_35
+  cv_fwd_36
+  cv_rev_36
+  cv_fwd_37
+  cv_rev_37
+  cv_fwd_38
+  cv_rev_38
+  cv_fwd_39
+  cv_rev_39
+  cv_fwd_40
+  cv_rev_40
+  cv_fwd_41
+  cv_rev_41
+  cv_fwd_42
+  cv_rev_42
+  cv_fwd_43
+  cv_rev_43
+  cv_fwd_44
+  cv_rev_44
+  cv_fwd_45
+  cv_rev_45
+  cv_fwd_46
+  cv_rev_46
+  cv_fwd_47
+  cv_rev_47
+  cv_fwd_48
+  cv_rev_48
+  cv_fwd_49
+  cv_rev_49
+
+Predictions vs targets (test set):
+Sample  DA_true     DA_pred     AA_true     AA_pred     UA_true     UA_pred     
+--------------------------------------------------------------------------------
+1       5.0         12.6        0.0         -21.7       0.0         27.9        
+2       5.0         11.3        100.0       113.7       200.0       184.3       
+3       5.0         10.7        200.0       176.3       400.0       377.8       
+4       5.0         -0.2        400.0       310.0       100.0       106.6       
+5       10.0        8.5         0.0         43.6        200.0       142.6       
+6       10.0        11.1        100.0       61.7        0.0         15.3        
+7       10.0        10.2        200.0       178.7       100.0       110.8       
+8       10.0        6.6         400.0       344.8       400.0       403.3       
+9       20.0        28.0        0.0         -6.3        400.0       388.2       
+10      20.0        28.7        100.0       71.4        100.0       89.7        
+11      20.0        36.0        200.0       198.3       0.0         -1.0        
+12      20.0        23.3        400.0       375.3       200.0       200.6       
+13      50.0        56.2        0.0         -10.8       100.0       103.3       
+14      50.0        62.1        100.0       111.3       400.0       374.8       
+15      50.0        56.5        200.0       105.9       200.0       184.1       
+16      50.0        72.1        400.0       446.4       0.0         9.5         
+17      100.0       97.2        0.0         -5.7        200.0       187.9       
+18      100.0       69.4        100.0       125.4       0.0         71.8        
+19      100.0       108.9       200.0       177.3       400.0       417.2       
+20      100.0       90.9        400.0       359.8       100.0       77.9        
+21      20.0        27.8        100.0       72.2        200.0       149.8       
+22      50.0        42.8        200.0       201.1       100.0       92.3        
+23      10.0        13.9        400.0       333.8       200.0       155.8       
+24      100.0       107.9       100.0       31.4        200.0       214.8       

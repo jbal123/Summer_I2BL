@@ -1,0 +1,80 @@
+Trial:          1168
+Mean RMSE:      90.7770 µM
+RMSE DA:        27.0909 µM
+RMSE AA:        145.4028 µM
+RMSE UA:        99.8373 µM
+Selected tests: swv, dpv, cv, ca, cagc
+N features:     40
+Train elecs:    ['i1', 'i3']
+Test elecs:     ['i5']
+Epochs:         10000
+
+Features:
+  swv_AA_Ep
+  swv_AA_k_pre
+  swv_AA_AI
+  swv_AA_fwd_rev_ratio
+  swv_DA_Ip
+  swv_DA_FWHM
+  swv_DA_Area
+  swv_DA_AI
+  swv_DA_Ip_fwd
+  swv_DA_fwd_rev_ratio
+  swv_UA_Ip
+  swv_UA_Ep
+  swv_UA_Area
+  swv_UA_k_pre
+  swv_UA_Ip_fwd
+  swv_UA_Ip_rev
+  swv_ratio_Ip_DA_AA
+  swv_ratio_Ip_UA_AA
+  swv_dEp_UA_DA
+  dpv_AA_Ep
+  dpv_DA_Ip
+  dpv_UA_Ip
+  dpv_UA_Ep
+  dpv_ratio_Ip_DA_UA
+  dpv_ratio_Ip_UA_AA
+  dpv_dEp_DA_AA
+  cv_AA_Ipa
+  cv_AA_Ep_a
+  cv_AA_Area
+  cv_AA_FWHM
+  cv_DA_Ipa
+  cv_DA_Area
+  cv_UA_Ipa
+  cv_DA_E12
+  cv_DA_Ipa_Ipc
+  ca_I0
+  ca_cott_slope
+  ca_cott_R2
+  cagc_CE_1s
+  cagc_eta10
+
+Predictions vs targets (test set):
+Sample  DA_true     DA_pred     AA_true     AA_pred     UA_true     UA_pred     
+--------------------------------------------------------------------------------
+1       5.0         20.1        0.0         70.9        0.0         154.0       
+2       5.0         33.7        100.0       245.7       200.0       169.2       
+3       5.0         24.4        200.0       136.5       400.0       288.8       
+4       5.0         10.8        400.0       217.7       100.0       153.7       
+5       10.0        45.2        0.0         288.3       200.0       164.6       
+6       10.0        34.8        100.0       86.1        0.0         143.1       
+7       10.0        18.7        200.0       228.6       100.0       185.1       
+8       10.0        12.8        400.0       266.5       400.0       279.1       
+9       20.0        38.5        0.0         216.5       400.0       227.3       
+10      20.0        20.0        100.0       136.7       100.0       219.8       
+11      20.0        34.7        200.0       168.7       0.0         64.8        
+12      20.0        22.0        400.0       249.0       200.0       217.8       
+13      50.0        34.2        0.0         135.5       100.0       184.0       
+14      50.0        25.3        100.0       257.9       400.0       164.3       
+15      50.0        11.7        200.0       213.2       200.0       167.0       
+16      50.0        71.4        400.0       362.8       0.0         31.6        
+17      100.0       35.2        0.0         155.2       200.0       167.7       
+18      100.0       45.7        100.0       274.5       0.0         35.5        
+19      100.0       73.1        200.0       233.6       400.0       266.6       
+20      100.0       54.8        400.0       293.0       100.0       164.7       
+21      20.0        27.0        100.0       228.8       200.0       141.4       
+22      50.0        42.3        200.0       162.1       100.0       184.5       
+23      10.0        -8.2        400.0       180.2       200.0       260.5       
+24      100.0       77.4        100.0       402.7       200.0       138.5       

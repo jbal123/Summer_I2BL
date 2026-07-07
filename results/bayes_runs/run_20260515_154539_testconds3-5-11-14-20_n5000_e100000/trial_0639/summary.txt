@@ -1,0 +1,47 @@
+Trial:          639
+Mean RMSE:      105.8178 µM
+RMSE DA:        21.1117 µM
+RMSE AA:        197.2757 µM
+RMSE UA:        99.0660 µM
+Selected tests: swv
+N features:     14
+Train conds:    [1, 2, 4, 6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 18, 19, 21, 22, 23, 24]
+Test conds:     [3, 5, 11, 14, 20]
+Epoch floor:    100000
+Actual epochs:  320400 (extended)
+Patience:       100 val-checks
+
+Features:
+  swv_AA_Ip
+  swv_AA_Ep
+  swv_AA_FWHM
+  swv_AA_AI
+  swv_AA_Ip_fwd
+  swv_AA_Ip_rev
+  swv_AA_fwd_rev_ratio
+  swv_DA_FWHM
+  swv_DA_Area
+  swv_UA_Ip
+  swv_UA_AI
+  swv_UA_Ip_fwd
+  swv_UA_Ip_rev
+  swv_UA_fwd_rev_ratio
+
+Predictions vs targets (test set):
+Sample  DA_true     DA_pred     AA_true     AA_pred     UA_true     UA_pred     
+--------------------------------------------------------------------------------
+1       5.0         -12.7       200.0       274.5       400.0       360.0       
+2       5.0         9.9         200.0       218.9       400.0       279.5       
+3       5.0         9.8         200.0       219.2       400.0       276.6       
+4       10.0        9.3         0.0         247.4       200.0       230.1       
+5       10.0        23.0        0.0         300.0       200.0       101.2       
+6       10.0        24.8        0.0         300.3       200.0       120.6       
+7       20.0        41.2        200.0       294.7       0.0         37.2        
+8       20.0        52.0        200.0       172.5       0.0         -17.0       
+9       20.0        51.2        200.0       179.4       0.0         -9.5        
+10      50.0        75.6        100.0       99.9        400.0       321.3       
+11      50.0        24.5        100.0       289.7       400.0       210.3       
+12      50.0        26.2        100.0       269.3       400.0       215.1       
+13      100.0       86.6        400.0       113.6       100.0       187.3       
+14      100.0       70.2        400.0       87.9        100.0       177.9       
+15      100.0       76.5        400.0       113.9       100.0       184.1       

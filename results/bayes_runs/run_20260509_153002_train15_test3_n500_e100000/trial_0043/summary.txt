@@ -1,0 +1,169 @@
+Trial:          43
+Mean RMSE:      36.7763 µM
+RMSE DA:        9.6203 µM
+RMSE AA:        64.2545 µM
+RMSE UA:        36.4542 µM
+Selected tests: swv, dpv, cv, ca
+N features:     127
+Train elecs:    ['i1', 'i5']
+Test elecs:     ['i3']
+Epoch floor:    100000
+Actual epochs:  436000 (extended)
+Patience:       100 val-checks
+
+Features:
+  swv_AA_Ep
+  swv_AA_k_pre
+  swv_DA_Ep
+  swv_DA_Area
+  swv_DA_k_pre
+  swv_UA_Ip
+  swv_UA_Ep
+  swv_UA_FWHM
+  swv_UA_Ip_fwd
+  swv_UA_Ip_rev
+  swv_UA_fwd_rev_ratio
+  swv_ratio_Ip_DA_UA
+  dpv_AA_Ip
+  dpv_AA_Ep
+  dpv_AA_Area
+  dpv_DA_Ip
+  dpv_DA_Area
+  dpv_UA_Ip
+  dpv_UA_Area
+  dpv_ratio_Ip_DA_UA
+  dpv_ratio_Ip_UA_AA
+  dpv_dEp_DA_AA
+  dpv_dEp_UA_DA
+  cv_fwd_00
+  cv_rev_00
+  cv_fwd_01
+  cv_rev_01
+  cv_fwd_02
+  cv_rev_02
+  cv_fwd_03
+  cv_rev_03
+  cv_fwd_04
+  cv_rev_04
+  cv_fwd_05
+  cv_rev_05
+  cv_fwd_06
+  cv_rev_06
+  cv_fwd_07
+  cv_rev_07
+  cv_fwd_08
+  cv_rev_08
+  cv_fwd_09
+  cv_rev_09
+  cv_fwd_10
+  cv_rev_10
+  cv_fwd_11
+  cv_rev_11
+  cv_fwd_12
+  cv_rev_12
+  cv_fwd_13
+  cv_rev_13
+  cv_fwd_14
+  cv_rev_14
+  cv_fwd_15
+  cv_rev_15
+  cv_fwd_16
+  cv_rev_16
+  cv_fwd_17
+  cv_rev_17
+  cv_fwd_18
+  cv_rev_18
+  cv_fwd_19
+  cv_rev_19
+  cv_fwd_20
+  cv_rev_20
+  cv_fwd_21
+  cv_rev_21
+  cv_fwd_22
+  cv_rev_22
+  cv_fwd_23
+  cv_rev_23
+  cv_fwd_24
+  cv_rev_24
+  cv_fwd_25
+  cv_rev_25
+  cv_fwd_26
+  cv_rev_26
+  cv_fwd_27
+  cv_rev_27
+  cv_fwd_28
+  cv_rev_28
+  cv_fwd_29
+  cv_rev_29
+  cv_fwd_30
+  cv_rev_30
+  cv_fwd_31
+  cv_rev_31
+  cv_fwd_32
+  cv_rev_32
+  cv_fwd_33
+  cv_rev_33
+  cv_fwd_34
+  cv_rev_34
+  cv_fwd_35
+  cv_rev_35
+  cv_fwd_36
+  cv_rev_36
+  cv_fwd_37
+  cv_rev_37
+  cv_fwd_38
+  cv_rev_38
+  cv_fwd_39
+  cv_rev_39
+  cv_fwd_40
+  cv_rev_40
+  cv_fwd_41
+  cv_rev_41
+  cv_fwd_42
+  cv_rev_42
+  cv_fwd_43
+  cv_rev_43
+  cv_fwd_44
+  cv_rev_44
+  cv_fwd_45
+  cv_rev_45
+  cv_fwd_46
+  cv_rev_46
+  cv_fwd_47
+  cv_rev_47
+  cv_fwd_48
+  cv_rev_48
+  cv_fwd_49
+  cv_rev_49
+  ca_Iss
+  ca_Iss_I0
+  ca_cott_slope
+  ca_Q_late_early
+
+Predictions vs targets (test set):
+Sample  DA_true     DA_pred     AA_true     AA_pred     UA_true     UA_pred     
+--------------------------------------------------------------------------------
+1       5.0         4.1         0.0         110.7       0.0         -31.0       
+2       5.0         5.0         100.0       89.6        200.0       174.7       
+3       5.0         5.1         200.0       173.3       400.0       406.9       
+4       5.0         2.4         400.0       211.8       100.0       160.1       
+5       10.0        5.3         0.0         127.9       200.0       165.5       
+6       10.0        -10.3       100.0       164.1       0.0         42.5        
+7       10.0        3.5         200.0       190.0       100.0       106.9       
+8       10.0        8.8         400.0       380.3       400.0       377.0       
+9       20.0        26.1        0.0         -6.3        400.0       377.5       
+10      20.0        31.9        100.0       79.6        100.0       87.8        
+11      20.0        34.1        200.0       239.9       0.0         -18.4       
+12      20.0        -1.2        400.0       412.8       200.0       183.0       
+13      50.0        56.7        0.0         29.9        100.0       143.1       
+14      50.0        39.4        100.0       197.6       400.0       351.2       
+15      50.0        64.3        200.0       221.4       200.0       159.2       
+16      50.0        37.2        400.0       478.4       0.0         7.9         
+17      100.0       101.0       0.0         -3.4        200.0       185.8       
+18      100.0       84.7        100.0       174.5       0.0         -6.7        
+19      100.0       102.2       200.0       245.8       400.0       284.8       
+20      100.0       93.2        400.0       371.3       100.0       135.5       
+21      20.0        20.3        100.0       108.6       200.0       192.2       
+22      50.0        46.9        200.0       159.1       100.0       76.4        
+23      10.0        4.5         400.0       386.2       200.0       179.8       
+24      100.0       92.2        100.0       99.5        200.0       200.0       

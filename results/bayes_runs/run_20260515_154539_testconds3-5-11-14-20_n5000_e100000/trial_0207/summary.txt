@@ -1,0 +1,98 @@
+Trial:          207
+Mean RMSE:      84.2175 µM
+RMSE DA:        32.5934 µM
+RMSE AA:        125.1013 µM
+RMSE UA:        94.9578 µM
+Selected tests: swv, cv, ca
+N features:     65
+Train conds:    [1, 2, 4, 6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 18, 19, 21, 22, 23, 24]
+Test conds:     [3, 5, 11, 14, 20]
+Epoch floor:    100000
+Actual epochs:  120000 (extended)
+Patience:       100 val-checks
+
+Features:
+  swv_AA_Ip
+  swv_AA_Ep
+  swv_AA_k_pre
+  swv_AA_Ip_rev
+  swv_AA_fwd_rev_ratio
+  swv_DA_Ip
+  swv_DA_Ep
+  swv_DA_Ip_rev
+  swv_DA_fwd_rev_ratio
+  swv_UA_k_pre
+  swv_UA_AI
+  swv_UA_Ip_fwd
+  swv_UA_fwd_rev_ratio
+  swv_ratio_Ip_DA_UA
+  swv_dEp_DA_AA
+  cv_spline_fwd_00
+  cv_spline_fwd_01
+  cv_spline_fwd_02
+  cv_spline_fwd_03
+  cv_spline_fwd_04
+  cv_spline_fwd_05
+  cv_spline_fwd_06
+  cv_spline_fwd_07
+  cv_spline_fwd_08
+  cv_spline_fwd_09
+  cv_spline_fwd_10
+  cv_spline_fwd_11
+  cv_spline_fwd_12
+  cv_spline_fwd_13
+  cv_spline_fwd_14
+  cv_spline_fwd_15
+  cv_spline_fwd_16
+  cv_spline_fwd_17
+  cv_spline_fwd_18
+  cv_spline_fwd_19
+  cv_spline_fwd_20
+  cv_spline_fwd_21
+  cv_spline_fwd_22
+  cv_spline_fwd_23
+  cv_spline_rev_00
+  cv_spline_rev_01
+  cv_spline_rev_02
+  cv_spline_rev_03
+  cv_spline_rev_04
+  cv_spline_rev_05
+  cv_spline_rev_06
+  cv_spline_rev_07
+  cv_spline_rev_08
+  cv_spline_rev_09
+  cv_spline_rev_10
+  cv_spline_rev_11
+  cv_spline_rev_12
+  cv_spline_rev_13
+  cv_spline_rev_14
+  cv_spline_rev_15
+  cv_spline_rev_16
+  cv_spline_rev_17
+  cv_spline_rev_18
+  cv_spline_rev_19
+  cv_spline_rev_20
+  cv_spline_rev_21
+  cv_spline_rev_22
+  cv_spline_rev_23
+  ca_Iss
+  ca_cott_slope
+
+Predictions vs targets (test set):
+Sample  DA_true     DA_pred     AA_true     AA_pred     UA_true     UA_pred     
+--------------------------------------------------------------------------------
+1       5.0         42.1        200.0       221.0       400.0       392.8       
+2       5.0         14.1        200.0       241.6       400.0       335.2       
+3       5.0         16.5        200.0       239.4       400.0       368.7       
+4       10.0        9.7         0.0         102.7       200.0       204.9       
+5       10.0        12.0        0.0         271.5       200.0       56.4        
+6       10.0        4.0         0.0         44.0        200.0       89.8        
+7       20.0        33.1        200.0       131.8       0.0         20.9        
+8       20.0        64.2        200.0       130.5       0.0         -17.6       
+9       20.0        64.4        200.0       129.7       0.0         2.2         
+10      50.0        102.3       100.0       -68.6       400.0       256.2       
+11      50.0        25.3        100.0       163.8       400.0       231.5       
+12      50.0        32.6        100.0       117.8       400.0       250.8       
+13      100.0       56.1        400.0       570.3       100.0       254.3       
+14      100.0       56.6        400.0       239.0       100.0       136.1       
+15      100.0       47.6        400.0       193.5       100.0       106.2       

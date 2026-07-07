@@ -1,0 +1,14 @@
+{
+  "data_dir": "outputs_dataset_full",
+  "train_elecs": [
+    "i1",
+    "i3"
+  ],
+  "test_elecs": [
+    "i5"
+  ],
+  "n_trials": 50,
+  "epochs": 10000,
+  "seed": 42,
+  "top_n": 10
+}

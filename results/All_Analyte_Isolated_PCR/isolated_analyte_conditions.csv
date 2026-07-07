@@ -1,0 +1,15 @@
+analyte,analyte_label,calibration_concentration_uM,day,condition,condition_code,dopamine_uM,ascorbic_acid_uM,uric_acid_uM,condition_folder
+DA,Dopamine,0,1,1,101,0,0,0,Day 1-4 Outputs w. TXT/Outputs_Day_1/Condition_1
+DA,Dopamine,5,1,5,105,5,0,0,Day 1-4 Outputs w. TXT/Outputs_Day_1/Condition_5
+DA,Dopamine,10,1,9,109,10,0,0,Day 1-4 Outputs w. TXT/Outputs_Day_1/Condition_9
+DA,Dopamine,20,1,13,113,20,0,0,Day 1-4 Outputs w. TXT/Outputs_Day_1/Condition_13
+DA,Dopamine,50,1,17,117,50,0,0,Day 1-4 Outputs w. TXT/Outputs_Day_1/Condition_17
+DA,Dopamine,100,1,21,121,100,0,0,Day 1-4 Outputs w. TXT/Outputs_Day_1/Condition_21
+AA,Ascorbic Acid,0,1,1,101,0,0,0,Day 1-4 Outputs w. TXT/Outputs_Day_1/Condition_1
+AA,Ascorbic Acid,100,1,2,102,0,100,0,Day 1-4 Outputs w. TXT/Outputs_Day_1/Condition_2
+AA,Ascorbic Acid,200,1,3,103,0,200,0,Day 1-4 Outputs w. TXT/Outputs_Day_1/Condition_3
+AA,Ascorbic Acid,400,1,4,104,0,400,0,Day 1-4 Outputs w. TXT/Outputs_Day_1/Condition_4
+UA,Uric Acid,0,1,1,101,0,0,0,Day 1-4 Outputs w. TXT/Outputs_Day_1/Condition_1
+UA,Uric Acid,100,2,1,201,0,0,100,Day 1-4 Outputs w. TXT/Outputs_Day_2_with_txt/Condition_1
+UA,Uric Acid,200,3,1,301,0,0,200,Day 1-4 Outputs w. TXT/Outputs_Day_3_with_txt/Condition_1
+UA,Uric Acid,400,4,1,401,0,0,400,Day 1-4 Outputs w. TXT/Outputs_Day_4_with_txt/Condition_1

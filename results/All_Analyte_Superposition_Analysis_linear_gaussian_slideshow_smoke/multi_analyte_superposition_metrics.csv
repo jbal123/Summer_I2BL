@@ -1,0 +1,13 @@
+day,condition,condition_code,dopamine_uM,ascorbic_acid_uM,uric_acid_uM,technique,sweep,n_points,rmse_uA,mae_uA,max_abs_residual_uA,normalized_rmse,r2,superposition_mode,baseline_source,linear_correction,gaussian_correction,linear_edge_fraction,linear_left_range_v,linear_right_range_v,gaussian_fit_start_v,gaussian_center_v,gaussian_sigma_v,gaussian_fit_mode
+1,6,106,5,100,0,cv_normal,anodic,1001,0.106134131875,0.0776747827881,0.324764172177,0.134404259373,0.601325831718,full_curve_sum,mean,True,True,0.08,"0.10,0.15","0.60,0.68",0.7,0.9,0.08,optimize
+1,6,106,5,100,0,cv_normal,cathodic,1000,0.156459746855,0.119686787444,0.582901658666,0.467729903356,-5.88565017261,full_curve_sum,mean,True,True,0.08,"0.10,0.15","0.60,0.68",0.7,0.9,0.08,optimize
+1,6,106,5,100,0,cv_gc,anodic,1001,0.684592530495,0.243762706417,5.62224095122,0.75735539292,-12.4627590587,full_curve_sum,mean,True,True,0.08,"0.10,0.15","0.60,0.68",0.7,0.9,0.08,optimize
+1,6,106,5,100,0,cv_gc,cathodic,1000,0.633496434917,0.183589818255,5.09130042242,2.18934862344,-66.9838971844,full_curve_sum,mean,True,True,0.08,"0.10,0.15","0.60,0.68",0.7,0.9,0.08,optimize
+1,7,107,5,200,0,cv_normal,anodic,1001,0.204252843863,0.143499508488,0.609665911358,0.187609729498,0.469477492586,full_curve_sum,mean,True,True,0.08,"0.10,0.15","0.60,0.68",0.7,0.9,0.08,optimize
+1,7,107,5,200,0,cv_normal,cathodic,1000,0.141412334986,0.108582000405,0.564857690412,0.319205139383,-1.01473049586,full_curve_sum,mean,True,True,0.08,"0.10,0.15","0.60,0.68",0.7,0.9,0.08,optimize
+1,7,107,5,200,0,cv_gc,anodic,1001,0.694073616648,0.330731359302,5.44808562752,0.618775012351,-4.4862723532,full_curve_sum,mean,True,True,0.08,"0.10,0.15","0.60,0.68",0.7,0.9,0.08,optimize
+1,7,107,5,200,0,cv_gc,cathodic,1000,0.617540282035,0.207176453679,4.9657493122,1.51711950715,-28.3848848098,full_curve_sum,mean,True,True,0.08,"0.10,0.15","0.60,0.68",0.7,0.9,0.08,optimize
+1,8,108,5,400,0,cv_normal,anodic,1001,0.391877902296,0.277934571736,1.09885981742,0.265527097317,0.304078585605,full_curve_sum,mean,True,True,0.08,"0.10,0.15","0.60,0.68",0.7,0.9,0.08,optimize
+1,8,108,5,400,0,cv_normal,cathodic,1000,0.162334949387,0.126781741716,0.528207760156,0.247801634057,0.260054498321,full_curve_sum,mean,True,True,0.08,"0.10,0.15","0.60,0.68",0.7,0.9,0.08,optimize
+1,8,108,5,400,0,cv_gc,anodic,1001,0.756021520663,0.486309194303,5.11209483109,0.591259061433,-2.06377621091,full_curve_sum,mean,True,True,0.08,"0.10,0.15","0.60,0.68",0.7,0.9,0.08,optimize
+1,8,108,5,400,0,cv_gc,cathodic,1000,0.593940582138,0.236355596281,4.74334048652,0.958503943521,-11.4901335516,full_curve_sum,mean,True,True,0.08,"0.10,0.15","0.60,0.68",0.7,0.9,0.08,optimize

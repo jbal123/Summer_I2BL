@@ -1,0 +1,21 @@
+{
+  "data_dir": "outputs_dataset_full",
+  "train_conds": null,
+  "test_conds": [
+    3,
+    5,
+    11,
+    14,
+    20
+  ],
+  "n_trials": 5000,
+  "epochs": 100000,
+  "seed": 42,
+  "top_n": 10,
+  "n_startup_trials": 1000,
+  "patience": 100,
+  "max_epochs": null,
+  "require_tests": [],
+  "asymmetric_loss": false,
+  "alpha": 2.0
+}

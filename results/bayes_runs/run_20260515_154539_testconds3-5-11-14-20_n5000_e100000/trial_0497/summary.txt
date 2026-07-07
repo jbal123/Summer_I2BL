@@ -1,0 +1,55 @@
+Trial:          497
+Mean RMSE:      97.4115 µM
+RMSE DA:        27.6425 µM
+RMSE AA:        156.1635 µM
+RMSE UA:        108.4285 µM
+Selected tests: swv, dpv, cagc
+N features:     22
+Train conds:    [1, 2, 4, 6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 18, 19, 21, 22, 23, 24]
+Test conds:     [3, 5, 11, 14, 20]
+Epoch floor:    100000
+Actual epochs:  120000 (extended)
+Patience:       100 val-checks
+
+Features:
+  swv_AA_Ep
+  swv_AA_FWHM
+  swv_AA_Ip_fwd
+  swv_AA_Ip_rev
+  swv_DA_FWHM
+  swv_DA_k_pre
+  swv_DA_fwd_rev_ratio
+  swv_UA_Ip
+  swv_UA_Ep
+  swv_UA_AI
+  swv_UA_Ip_fwd
+  swv_UA_Ip_rev
+  swv_ratio_Ip_DA_AA
+  swv_dEp_UA_DA
+  dpv_AA_Ip
+  dpv_AA_Area
+  dpv_UA_Ip
+  dpv_ratio_Ip_DA_AA
+  dpv_ratio_Ip_UA_AA
+  cagc_CE_1s
+  cagc_CE_10s
+  cagc_AF
+
+Predictions vs targets (test set):
+Sample  DA_true     DA_pred     AA_true     AA_pred     UA_true     UA_pred     
+--------------------------------------------------------------------------------
+1       5.0         9.6         200.0       391.5       400.0       280.9       
+2       5.0         29.1        200.0       208.0       400.0       499.4       
+3       5.0         32.8        200.0       202.0       400.0       530.6       
+4       10.0        30.0        0.0         170.9       200.0       255.1       
+5       10.0        27.7        0.0         262.7       200.0       129.3       
+6       10.0        28.8        0.0         235.4       200.0       135.3       
+7       20.0        14.9        200.0       216.2       0.0         -1.5        
+8       20.0        53.6        200.0       144.7       0.0         4.1         
+9       20.0        55.7        200.0       143.3       0.0         8.8         
+10      50.0        31.4        100.0       228.5       400.0       246.4       
+11      50.0        32.1        100.0       195.3       400.0       263.1       
+12      50.0        39.6        100.0       186.0       400.0       224.2       
+13      100.0       56.9        400.0       172.4       100.0       212.5       
+14      100.0       55.5        400.0       188.0       100.0       229.4       
+15      100.0       55.5        400.0       202.0       100.0       242.4       

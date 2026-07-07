@@ -1,0 +1,4 @@
+day,condition,condition_code,dopamine_uM,ascorbic_acid_uM,uric_acid_uM,condition_folder
+1,6,106,5,100,0,Day 1-4 Outputs w. TXT/Outputs_Day_1/Condition_6
+1,7,107,5,200,0,Day 1-4 Outputs w. TXT/Outputs_Day_1/Condition_7
+1,8,108,5,400,0,Day 1-4 Outputs w. TXT/Outputs_Day_1/Condition_8

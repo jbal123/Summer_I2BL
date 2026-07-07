@@ -1,0 +1,18 @@
+{
+  "data_dir": "outputs_dataset_full",
+  "train_elecs": null,
+  "test_elecs": [
+    "i1"
+  ],
+  "n_trials": 200,
+  "epochs": 100000,
+  "seed": 42,
+  "top_n": 10,
+  "n_startup_trials": 25,
+  "patience": 0,
+  "max_epochs": null,
+  "require_tests": [],
+  "asymmetric_loss": false,
+  "alpha": 2.0,
+  "cv_pca_variance": 0.95
+}

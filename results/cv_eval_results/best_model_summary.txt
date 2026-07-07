@@ -1,0 +1,102 @@
+TOP 10 EXPERIMENTS BY MEAN CV RMSE
+================================================================================
+
+ 1. all_handcrafted_plus_spline10_ridge
+    Feature family : combined
+    Feature set    : all_handcrafted_plus_spline10
+    Feature dim    : 89
+    Model          : ridge
+    Mean CV RMSE   : 62.989 µM
+    Mean Test RMSE : 70.247 µM
+    DA / AA / UA test RMSE: 29.92 / 108.89 / 71.93 µM
+    Preprocessing  : all_handcrafted + spline(10)
+
+ 2. lasso_selected_ridge
+    Feature family : feature_selection
+    Feature set    : lasso_selected
+    Feature dim    : 15
+    Model          : ridge
+    Mean CV RMSE   : 66.513 µM
+    Mean Test RMSE : 57.751 µM
+    DA / AA / UA test RMSE: 22.74 / 94.23 / 56.28 µM
+    Preprocessing  : MultiTaskLassoCV selected
+
+ 3. pca_var99_ridge
+    Feature family : pca
+    Feature set    : pca_var99
+    Feature dim    : 7
+    Model          : ridge
+    Mean CV RMSE   : 67.598 µM
+    Mean Test RMSE : 58.446 µM
+    DA / AA / UA test RMSE: 22.81 / 95.54 / 56.98 µM
+    Preprocessing  : n_components=7, explained_var=0.9900
+
+ 4. spline_5_ridge
+    Feature family : spline
+    Feature set    : spline_5
+    Feature dim    : 18
+    Model          : ridge
+    Mean CV RMSE   : 68.010 µM
+    Mean Test RMSE : 57.336 µM
+    DA / AA / UA test RMSE: 21.88 / 93.04 / 57.09 µM
+    Preprocessing  : 5 interior knots
+
+ 5. all_handcrafted_plus_pca10_ridge
+    Feature family : combined
+    Feature set    : all_handcrafted_plus_pca10
+    Feature dim    : 71
+    Model          : ridge
+    Mean CV RMSE   : 68.026 µM
+    Mean Test RMSE : 91.771 µM
+    DA / AA / UA test RMSE: 38.19 / 144.43 / 92.69 µM
+    Preprocessing  : all_handcrafted + PCA(10)
+
+ 6. spline_10_ridge
+    Feature family : spline
+    Feature set    : spline_10
+    Feature dim    : 28
+    Model          : ridge
+    Mean CV RMSE   : 68.593 µM
+    Mean Test RMSE : 53.590 µM
+    DA / AA / UA test RMSE: 19.88 / 87.87 / 53.02 µM
+    Preprocessing  : 10 interior knots
+
+ 7. select_k20_ridge
+    Feature family : feature_selection
+    Feature set    : select_k20
+    Feature dim    : 20
+    Model          : ridge
+    Mean CV RMSE   : 69.069 µM
+    Mean Test RMSE : 60.812 µM
+    DA / AA / UA test RMSE: 24.72 / 97.27 / 60.45 µM
+    Preprocessing  : F-statistic top 20
+
+ 8. pca_5_ridge
+    Feature family : pca
+    Feature set    : pca_5
+    Feature dim    : 5
+    Model          : ridge
+    Mean CV RMSE   : 70.389 µM
+    Mean Test RMSE : 65.467 µM
+    DA / AA / UA test RMSE: 26.59 / 107.17 / 62.64 µM
+    Preprocessing  : n_components=5, explained_var=0.9739
+
+ 9. pca_var95_ridge
+    Feature family : pca
+    Feature set    : pca_var95
+    Feature dim    : 5
+    Model          : ridge
+    Mean CV RMSE   : 70.389 µM
+    Mean Test RMSE : 65.467 µM
+    DA / AA / UA test RMSE: 26.59 / 107.17 / 62.64 µM
+    Preprocessing  : n_components=5, explained_var=0.9739
+
+10. all_handcrafted_plus_pca5_ridge
+    Feature family : combined
+    Feature set    : all_handcrafted_plus_pca5
+    Feature dim    : 66
+    Model          : ridge
+    Mean CV RMSE   : 70.449 µM
+    Mean Test RMSE : 63.844 µM
+    DA / AA / UA test RMSE: 34.84 / 96.12 / 60.58 µM
+    Preprocessing  : all_handcrafted + PCA(5)
